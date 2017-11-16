@@ -1,0 +1,5 @@
+--search for files  with given text
+find . -name \*.* -exec grep -q "Tomas" '{}' \; -print
+
+--start jboss in debug mode on given port
+standalone.bat --debug 8787
