@@ -6,3 +6,6 @@ standalone.bat --debug 8787
 
 --check what takes place on the linux machine
 du -sh /*
+
+--to debug (simulate running) under the user e.g. tomcat (disabled loging /bin/false) run this:
+sudo su - tomcat -s /bin/sh
